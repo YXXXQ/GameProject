@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class FisherController : MonoBehaviour
+{
+    private Animator animator;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    public void PlayFishingEndAnimation()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("FishingEnd");
+        }
+    }
+}

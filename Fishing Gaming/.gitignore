@@ -1,0 +1,61 @@
+# Unity项目通用忽略文件
+
+# Unity生成的文件夹
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures可以获取大量内存转储
+[Mm]emoryCaptures/
+
+# Asset meta data应该只在项目文件夹中被忽略
+!/[Aa]ssets/**/*.meta
+
+# 取消忽略Asset Store工具插件
+![Aa]ssets/AssetStoreTools*
+
+# 自动生成的VS/MD/Consulo解决方案和项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的meta文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D生成的崩溃报告文件
+sysinfo.txt
+
+# 构建
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# 打包的可寻址资源
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 临时自动生成的Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
